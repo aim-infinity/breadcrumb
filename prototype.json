@@ -1,0 +1,484 @@
+{
+  "original": "https://multiagent-netcore-playground-iteration-main.lovable.app/",
+  "flows": [
+    {
+      "id": "flow-281k3r3i642c1h54",
+      "name": "Create agent",
+      "screens": []
+    },
+    {
+      "id": "flow-4h0i3i3e5w0h666u",
+      "name": "Test flow",
+      "screens": [
+        "step-0z0l282n1n5d5867",
+        "step-044118036a1g424g",
+        "step-3u4l0v5c65380i2t",
+        "step-0l1f2l0n2i5h0w2k",
+        "step-505v1t4t625t6f6n",
+        "step-4n352e2c5r1v6c5p",
+        "step-0z0666563h1h6s0m"
+      ]
+    },
+    {
+      "id": "flow-605o3u5l2r0h6k3y",
+      "name": "Create agent - V1",
+      "screens": [
+        "step-0f483m07434z1h21",
+        "step-2x3e3a594q6x1x0t",
+        "step-1r390b3l4l620g4b",
+        "step-6m5y5c603b5w391n",
+        "step-4z0v324b411t6s0u"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": "step-0z0l282n1n5d5867",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Click Agents",
+      "instruction": "Click \u201cAgents\u201d.",
+      "image": "screenshots/shot-4v6o5g2w102j1q2l.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 12,
+            "y": 136,
+            "w": 263,
+            "h": 32
+          },
+          "label": "Button \u201cAgents\u201d",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-044118036a1g424g",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Click Create agent",
+      "instruction": "Click \u201cCreate agent\u201d.",
+      "image": "screenshots/shot-0j5s4a4b0e2o6c2n.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 1243.9140625,
+            "y": 65,
+            "w": 116.0859375,
+            "h": 32
+          },
+          "label": "Button \u201cCreate agent\u201d",
+          "to": "step-3u4l0v5c65380i2t"
+        },
+        {
+          "rect": {
+            "x": 12,
+            "y": 72,
+            "w": 263,
+            "h": 32
+          },
+          "label": "Return to starting screen",
+          "to": "step-0z0l282n1n5d5867"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-3u4l0v5c65380i2t",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Fill in e.g. Tell me when one of my journeys qui\u2026",
+      "instruction": "Enter e.g. tell me when one of my journeys qui\u2026, then press Next.",
+      "image": "screenshots/shot-630g6q685w294n3l.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 420,
+            "y": 184.625,
+            "w": 672,
+            "h": 100.5
+          },
+          "label": "Field \u201ce.g. Tell me when one of my journeys qui\u2026\u201d",
+          "to": "step-0l1f2l0n2i5h0w2k"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-044118036a1g424g"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "input"
+    },
+    {
+      "id": "step-0l1f2l0n2i5h0w2k",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Click Choose one or more",
+      "instruction": "Click \u201cChoose one or more\u201d.",
+      "image": "screenshots/shot-161v0x416913092y.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 420,
+            "y": 425.875,
+            "w": 672,
+            "h": 38
+          },
+          "label": "Button \u201cChoose one or more\u201d",
+          "to": "step-505v1t4t625t6f6n"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-044118036a1g424g"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-505v1t4t625t6f6n",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Click Choose one or more",
+      "instruction": "Click \u201cChoose one or more\u201d.",
+      "image": "screenshots/shot-2c1z2z1p3d3q2j1a.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 420,
+            "y": 536.875,
+            "w": 672,
+            "h": 38
+          },
+          "label": "Button \u201cChoose one or more\u201d",
+          "to": "step-4n352e2c5r1v6c5p"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-044118036a1g424g"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-4n352e2c5r1v6c5p",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Review Visibility *Private (only me)Workspace (\u2026",
+      "instruction": "Check this part of the page, then press Next.",
+      "image": "screenshots/shot-1s6b2k0g4j3y4e2p.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 420,
+            "y": 596.875,
+            "w": 672,
+            "h": 84.5
+          },
+          "label": "Element \u201cVisibility *Private (only me)Workspace (\u2026\u201d",
+          "to": "step-0z0666563h1h6s0m"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-044118036a1g424g"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "other"
+    },
+    {
+      "id": "step-0z0666563h1h6s0m",
+      "flowId": "flow-4h0i3i3e5w0h666u",
+      "title": "Click Create agent",
+      "instruction": "Click \u201cCreate agent\u201d.",
+      "image": "screenshots/shot-2v6w4m5n206a620v.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 975.9140625,
+            "y": 716.375,
+            "w": 116.0859375,
+            "h": 32
+          },
+          "label": "Button \u201cCreate agent\u201d",
+          "to": null
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-044118036a1g424g"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-044118036a1g424g"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-0f483m07434z1h21",
+      "flowId": "flow-605o3u5l2r0h6k3y",
+      "title": "Click Agents",
+      "instruction": "Click \u201cAgents\u201d.",
+      "image": "screenshots/shot-3355125q0q4r3t3a.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 12,
+            "y": 136,
+            "w": 263,
+            "h": 32
+          },
+          "label": "Button \u201cAgents\u201d",
+          "to": "step-2x3e3a594q6x1x0t"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-2x3e3a594q6x1x0t",
+      "flowId": "flow-605o3u5l2r0h6k3y",
+      "title": "Click Create agent",
+      "instruction": "Click \u201cCreate agent\u201d.",
+      "image": "screenshots/shot-2h0f72315417430v.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 1243.9140625,
+            "y": 65,
+            "w": 116.0859375,
+            "h": 32
+          },
+          "label": "Button \u201cCreate agent\u201d",
+          "to": "step-1r390b3l4l620g4b"
+        },
+        {
+          "rect": {
+            "x": 12,
+            "y": 72,
+            "w": 263,
+            "h": 32
+          },
+          "label": "Return to starting screen",
+          "to": "step-0f483m07434z1h21"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-1r390b3l4l620g4b",
+      "flowId": "flow-605o3u5l2r0h6k3y",
+      "title": "Fill in e.g. Tell me when one of my journeys qui\u2026",
+      "instruction": "Enter e.g. tell me when one of my journeys qui\u2026, then press Next.",
+      "image": "screenshots/shot-1d4c0j665q3g2054.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 420,
+            "y": 184.625,
+            "w": 672,
+            "h": 100.5
+          },
+          "label": "Field \u201ce.g. Tell me when one of my journeys qui\u2026\u201d",
+          "to": "step-6m5y5c603b5w391n"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-2x3e3a594q6x1x0t"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-2x3e3a594q6x1x0t"
+        }
+      ],
+      "kind": "input"
+    },
+    {
+      "id": "step-6m5y5c603b5w391n",
+      "flowId": "flow-605o3u5l2r0h6k3y",
+      "title": "Click Create agent",
+      "instruction": "Click \u201cCreate agent\u201d.",
+      "image": "screenshots/shot-092d6s11550a3b5j.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 975.9140625,
+            "y": 716.375,
+            "w": 116.0859375,
+            "h": 32
+          },
+          "label": "Button \u201cCreate agent\u201d",
+          "to": "step-4z0v324b411t6s0u"
+        },
+        {
+          "rect": {
+            "x": 1067,
+            "y": 89,
+            "w": 20,
+            "h": 25
+          },
+          "label": "Close dialog and return to agents",
+          "to": "step-2x3e3a594q6x1x0t"
+        },
+        {
+          "rect": {
+            "x": 893,
+            "y": 716,
+            "w": 77,
+            "h": 33
+          },
+          "label": "Cancel and return to agents",
+          "to": "step-2x3e3a594q6x1x0t"
+        }
+      ],
+      "kind": "button"
+    },
+    {
+      "id": "step-4z0v324b411t6s0u",
+      "flowId": "flow-605o3u5l2r0h6k3y",
+      "title": "Click Refine with Cori",
+      "instruction": "Click \u201cRefine with Cori\u201d.",
+      "image": "screenshots/shot-3g731n552c0r453w.jpg",
+      "viewport": {
+        "w": 1512,
+        "h": 828
+      },
+      "hotspots": [
+        {
+          "rect": {
+            "x": 1236.03125,
+            "y": 497.5,
+            "w": 134.96875,
+            "h": 30.75
+          },
+          "label": "Button \u201cRefine with Cori\u201d",
+          "to": null
+        }
+      ],
+      "kind": "button"
+    }
+  ]
+}

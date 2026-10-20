@@ -1,15 +1,1 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Captured walkthrough</title>
-  <link rel="stylesheet" href="viewer.css" />
-</head>
-<body style="margin:0;background:#f5f6f8">
-  <div id="root"></div>
-  <!-- Present in static exports; absent when the viewer is used to open a package file. -->
-  <script src="walkthrough-data.js"></script>
-  <script src="viewer.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Breadcrumb · Explore the prototype</title><link rel="stylesheet" href="prototype.css"></head><body><header><a class="brand" href="#">● Breadcrumb</a><span class="tag">INTERACTIVE PROTOTYPE</span><div class="modes"><button id="explore">Explore</button><button id="guided">Guided flows</button></div><a id="original" target="_blank" rel="noopener">Open original ↗</a></header><div class="layout"><aside><h1>Find your own way.</h1><p class="muted">Explore captured screens, or choose a journey to follow.</p><h2>JOURNEYS</h2><div id="flows"></div><h2>SCREENS <span id="count"></span></h2><nav id="screens" aria-label="Captured screens"></nav><p class="foot">A captured prototype. Connected areas work; unrecorded features and backend actions aren’t included.</p></aside><main><div class="tools"><button id="back">← Back</button><button id="home">Start screen</button><label><input id="hints" type="checkbox" checked> Show click areas</label><span id="position"></span></div><div id="canvas"><div id="stage"></div></div><section id="guide" aria-live="polite"></section><p id="notice" role="status"></p></main></div><script src="prototype.js"></script></body></html>
