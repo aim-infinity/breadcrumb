@@ -1,6 +1,29 @@
 (async function boot(){
 'use strict';
-const $=id=>document.getElementById(id), data=window.__BREADCRUMB_HTML__;
+const $=id=>document.getElementById(id);
+let data=window.__BREADCRUMB_HTML__;
+if(new URLSearchParams(location.search).get('import')==='extension') {
+  const params=new URLSearchParams(location.hash.slice(1)), token=params.get('token'), source=params.get('source');
+  data=null;
+  if(!window.opener || !token || !/^chrome-extension:\/\/[a-p]{32}$/.test(source||'')) { $('status').textContent='Open this preview from the extension’s Share screen. This URL does not contain a published prototype.';return }
+  $('status').textContent='Waiting for your extension’s HTML captures…';
+  try {
+    data=await new Promise((resolve,reject)=>{
+      const cleanup=()=>{clearTimeout(timer);window.removeEventListener('message',receive)};
+      const timer=setTimeout(()=>{cleanup();reject(Error('Connection timed out. Reopen the editor from the extension.'))},45000);
+      const receive=e=>{
+        if(e.source!==window.opener||e.origin!==source||e.data?.token!==token||e.data.type!=='breadcrumb:load')return;
+        const value=e.data.data;
+        if(!Array.isArray(value?.screens)||!value.screens.length||!Array.isArray(value.flows)||!value.flows.length||value.screens.some(s=>typeof s.html!=='string'||typeof s.id!=='string')) {cleanup();reject(Error('The extension sent an invalid prototype.'));return}
+        cleanup();window.opener.postMessage({type:'breadcrumb:loaded',token},source);resolve(value);
+      };
+      window.addEventListener('message',receive);
+      window.opener.postMessage({type:'breadcrumb:ready',token},source);
+    });
+  }catch(error){$('status').textContent=error.message;return}
+  // Exported files should boot independently rather than attempting a new extension handoff.
+  // Keep import context in the URL so a reload never silently opens the sample demo.
+}
 if(!data?.screens?.length){$('status').textContent='No HTML captures available. Record again with Capture editable HTML prototype enabled.';return}
 const screens=new Map(data.screens.map(s=>[s.id,s]));
 let journey=data.flows[0], current=data.screens[0].id, mode='explore', trail=[], selected='', nonce='', complete=false;
