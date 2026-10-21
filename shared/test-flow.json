@@ -4,7 +4,7 @@
   "exportedAt": "2026-10-20T16:39:42.843Z",
   "project": {
     "name": "Create agent",
-    "url": "https://multiagent-netcore-playground-iteration-main.lovable.app/"
+    "url": "https://multiagent-netcore-playground-iteration-main.lovable.app/campaigns"
   },
   "flows": [
     {
@@ -47,7 +47,7 @@
             "label": "Button \u201cAgents\u201d"
           },
           "context": {
-            "path": "/",
+            "path": "/campaigns",
             "pageTitle": "Co-marketer - by Amit",
             "viewport": {
               "w": 1512,
@@ -316,7 +316,7 @@
       ],
       "order": 1,
       "name": "Test flow",
-      "startUrl": "https://multiagent-netcore-playground-iteration-main.lovable.app/"
+      "startUrl": "https://multiagent-netcore-playground-iteration-main.lovable.app/campaigns"
     }
   ]
 }
