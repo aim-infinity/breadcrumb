@@ -1,0 +1,322 @@
+{
+  "format": "walkthrough-package",
+  "version": 1,
+  "exportedAt": "2026-10-20T16:39:42.843Z",
+  "project": {
+    "name": "Create agent",
+    "url": "https://multiagent-netcore-playground-iteration-main.lovable.app/"
+  },
+  "flows": [
+    {
+      "id": "flow-4h0i3i3e5w0h666u",
+      "description": "",
+      "prerequisites": "",
+      "steps": [
+        {
+          "id": "step-0z0l282n1n5d5867",
+          "title": "Click Agents",
+          "instruction": "Click \u201cAgents\u201d.",
+          "expected": "Open",
+          "completion": {
+            "type": "click"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "css",
+                "selector": "button[aria-label=\"Agents\"]"
+              },
+              {
+                "kind": "text",
+                "tag": "button",
+                "text": "Agents"
+              },
+              {
+                "kind": "css",
+                "selector": "#root > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(3)"
+              }
+            ],
+            "fingerprint": {
+              "tag": "button",
+              "text": "Agents",
+              "label": "Agents",
+              "type": "button"
+            },
+            "kind": "button",
+            "label": "Button \u201cAgents\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 12,
+              "y": 136,
+              "w": 263,
+              "h": 32
+            }
+          }
+        },
+        {
+          "id": "step-044118036a1g424g",
+          "title": "Click Create agent",
+          "instruction": "Click \u201cCreate agent\u201d.",
+          "expected": "",
+          "completion": {
+            "type": "click"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "text",
+                "tag": "button",
+                "text": "Create agent"
+              },
+              {
+                "kind": "css",
+                "selector": "#root > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div > button"
+              }
+            ],
+            "fingerprint": {
+              "tag": "button",
+              "text": "Create agent",
+              "type": "button"
+            },
+            "kind": "button",
+            "label": "Button \u201cCreate agent\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 1243.9140625,
+              "y": 65,
+              "w": 116.0859375,
+              "h": 32
+            }
+          }
+        },
+        {
+          "id": "step-3u4l0v5c65380i2t",
+          "title": "Fill in e.g. Tell me when one of my journeys qui\u2026",
+          "instruction": "Enter e.g. tell me when one of my journeys qui\u2026, then press Next.",
+          "expected": "Fill the information",
+          "completion": {
+            "type": "manual"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "css",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > textarea"
+              }
+            ],
+            "fingerprint": {
+              "tag": "textarea",
+              "placeholder": "e.g. Tell me when one of my journeys quietly stops sending, and at which step"
+            },
+            "kind": "input",
+            "label": "Field \u201ce.g. Tell me when one of my journeys qui\u2026\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 420,
+              "y": 184.625,
+              "w": 672,
+              "h": 100.5
+            }
+          }
+        },
+        {
+          "id": "step-0l1f2l0n2i5h0w2k",
+          "title": "Click Choose one or more",
+          "instruction": "Click \u201cChoose one or more\u201d.",
+          "expected": "",
+          "completion": {
+            "type": "click"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "text",
+                "tag": "button",
+                "text": "Choose one or more"
+              },
+              {
+                "kind": "css",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button"
+              }
+            ],
+            "fingerprint": {
+              "tag": "button",
+              "text": "Choose one or more",
+              "type": "button"
+            },
+            "kind": "button",
+            "label": "Button \u201cChoose one or more\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 420,
+              "y": 425.875,
+              "w": 672,
+              "h": 38
+            }
+          }
+        },
+        {
+          "id": "step-505v1t4t625t6f6n",
+          "title": "Click Choose one or more",
+          "instruction": "Click \u201cChoose one or more\u201d.",
+          "expected": "",
+          "completion": {
+            "type": "click"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "text",
+                "tag": "button",
+                "text": "Choose one or more"
+              },
+              {
+                "kind": "css",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > button"
+              }
+            ],
+            "fingerprint": {
+              "tag": "button",
+              "text": "Choose one or more",
+              "type": "button"
+            },
+            "kind": "button",
+            "label": "Button \u201cChoose one or more\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 420,
+              "y": 536.875,
+              "w": 672,
+              "h": 38
+            }
+          }
+        },
+        {
+          "id": "step-4n352e2c5r1v6c5p",
+          "title": "Review Visibility *Private (only me)Workspace (\u2026",
+          "instruction": "Check this part of the page, then press Next.",
+          "expected": "",
+          "completion": {
+            "type": "manual"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "css",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)"
+              }
+            ],
+            "fingerprint": {
+              "tag": "div",
+              "text": "Visibility *Private (only me)Workspace (whole team)"
+            },
+            "kind": "other",
+            "label": "Element \u201cVisibility *Private (only me)Workspace (\u2026\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 420,
+              "y": 596.875,
+              "w": 672,
+              "h": 84.5
+            }
+          }
+        },
+        {
+          "id": "step-0z0666563h1h6s0m",
+          "title": "Click Create agent",
+          "instruction": "Click \u201cCreate agent\u201d.",
+          "expected": "",
+          "completion": {
+            "type": "click"
+          },
+          "position": "auto",
+          "target": {
+            "selectors": [
+              {
+                "kind": "text",
+                "tag": "button",
+                "text": "Create agent"
+              },
+              {
+                "kind": "css",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > button:nth-of-type(2)"
+              }
+            ],
+            "fingerprint": {
+              "tag": "button",
+              "text": "Create agent",
+              "type": "button"
+            },
+            "kind": "button",
+            "label": "Button \u201cCreate agent\u201d"
+          },
+          "context": {
+            "path": "/",
+            "pageTitle": "Co-marketer - by Amit",
+            "viewport": {
+              "w": 1512,
+              "h": 828
+            },
+            "rect": {
+              "x": 975.9140625,
+              "y": 716.375,
+              "w": 116.0859375,
+              "h": 32
+            }
+          }
+        }
+      ],
+      "order": 1,
+      "name": "Test flow",
+      "startUrl": "https://multiagent-netcore-playground-iteration-main.lovable.app/"
+    }
+  ]
+}
